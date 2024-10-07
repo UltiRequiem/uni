@@ -19,7 +19,18 @@ def pytagoric_pairs_up_to(top: int):
 
     return pairs
 
+def main():
+    cota = input("Ingrese una cota: ")
+    pairs_found = pytagoric_pairs_up_to(int(cota))
+    total_pairs = len(pairs_found)
 
-pairs_found= pytagoric_pairs_up_to(254)
+    if total_pairs> 0:
+        print(f'{total_pairs} were found!')
+        for pair in pairs_found:
+         print(pair)
+    else:
+        print("No se encontro ningun par que cumpla en ese rango.")
 
-print(pairs_found)
+if __name__ == "__main__":
+    main()
+
