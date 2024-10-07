@@ -1,11 +1,10 @@
 def pytagoric_pairs_up_to(top: int):
     pairs = []
 
-    for number in range(0,top):
-
-        for x in range(0,number):
-            for y in range(0, number):
-                if  x>y and x**2 + y**2 == number**2:
+    for number in range(1,top):
+        for x in range(1,number):
+            for y in range(2, x): # y alwayss less than x
+                if x**2 + y**2 == number**2:
                     
                     is_repeated = False
 
