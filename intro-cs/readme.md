@@ -1,6 +1,18 @@
-# Tutoriales
+## Tutoriales
 
-[Budget Calc & Pair Digits](https://youtu.be/rROFjNwzvc4?feature=shared)
+
+### [Budget Calc & Pair Digits](https://youtu.be/rROFjNwzvc4?feature=shared)
+
+Resolucion de dos problmeas de una quinta dirigida.
+
+![Miniature](./while.png)
+
+
+### [Ternas Pitagoricas]()
+
+![Miniature](./ternas.png)
+
+Resolucion de un problema de 2da PC en Python.
 
 ## Planchas
 

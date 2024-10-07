@@ -25,7 +25,7 @@ def main():
     total_pairs = len(pairs_found)
 
     if total_pairs> 0:
-        print(f'{total_pairs} were found!')
+        print(f'{total_pairs} pairs were found!')
         for pair in pairs_found:
          print(pair)
     else:
@@ -33,4 +33,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
