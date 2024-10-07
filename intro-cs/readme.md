@@ -8,7 +8,7 @@ Resolucion de dos problmeas de una quinta dirigida.
 ![Miniature](./while.png)
 
 
-### [Ternas Pitagoricas]()
+### [Ternas Pitagoricas](https://youtu.be/sQId1d5ccLw)
 
 ![Miniature](./ternas.png)
 
