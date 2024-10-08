@@ -6,10 +6,10 @@ bool leapYear(int year) {
     return (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0));
 }
 
-int howManyDaysIn(int mes, int anio) {
+int howManyDaysIn(int mes, int year) {
     switch (mes) {
         case 1: return 31; 
-        case 2: return leapYear(anio) ? 29 : 28;
+        case 2: return leapYear(year) ? 29 : 28;
         case 3: return 31; 
         case 4: return 30;
         case 5: return 31;
