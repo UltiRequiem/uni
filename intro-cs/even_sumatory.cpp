@@ -5,8 +5,8 @@ using namespace std;
 int evenSummation(int top){
 	int result = 0;
 
-	for (int i = 0; i <= top; i++){
-		if (i % 2 == 0 ) result += i;
+	for (int i = 0; i <= top; i+=2){
+		result += i;
 	}
 
 	return result;
