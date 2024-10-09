@@ -2,9 +2,14 @@ def pytagoric_pairs_up_to(top: int):
     pytagoric_pairs = []
 
     for number in range(0,top):
+        number_square = number * number
+
         for x in range(0, number):
-            for y in range(0, number):
-                if x> y and x**2 + y**2 == number **2:
+
+            x_square = x*x
+
+            for y in range(0, x):
+                if x_square + y**2 ==number_square:
 
                     is_repeated = False
 
