@@ -10,7 +10,7 @@ int main(){
     cout << "Ingrese el valor de x (|x| <= 1): ";
     cin >> x;
     
-    if (not (x <= 1)){
+    if (not (abs(x) <= 1)){
         cout << "Porfavor ingrese un numero en el rango.";
         return 0;
     }
